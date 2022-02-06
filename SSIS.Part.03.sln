@@ -5,13 +5,30 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS.Part.03", "SSIS.Part.03\SSIS.Part.03.dtproj", "{F10A8CF7-C262-43CB-9863-7F96CE273252}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UNStatistic.DB", "UNStatistic.DB\UNStatistic.DB.sqlproj", "{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Development|Default.ActiveCfg = Development
-		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Development|Default.Build.0 = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Debug|Any CPU.ActiveCfg = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Debug|Any CPU.Build.0 = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Development|Any CPU.ActiveCfg = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Development|Any CPU.Build.0 = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Release|Any CPU.ActiveCfg = Development
+		{F10A8CF7-C262-43CB-9863-7F96CE273252}.Release|Any CPU.Build.0 = Development
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CDC4B4-B255-4A6C-B2BF-5583B785F480}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+﻿CREATE   PROCEDURE Book.SP_BookItem_Read
+AS
+
+IF OBJECT_ID('Book.BookItem') IS NOT NULL
+
+SELECT * FROM Book.BookItem;
+
+RETURN;
