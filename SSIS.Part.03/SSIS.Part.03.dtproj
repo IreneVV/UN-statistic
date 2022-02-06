@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-1TTFAE3</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkKHepNFDUU6WO2J5B/bJuwAAAAACAAAAAAAQZgAAAAEAACAAAACM6Rcly58cXfJNjQu6wnaXw27+C03C4JRKqrYj9OcF6QAAAAAOgAAAAAIAACAAAACe2T26mh4iXfDlITjgv3a0nIYA+UbonVBq+eVuJC1ZipAAAAC3zvVCOMfK+EHJrCwWf60JzwXfyBkTa46qaiujCJGw8nUc5AtWXrK16qRJQj4AZbW6LiAwYUC/xuEPr5tCU04fktqyMWA8kTL/aWxMmkqLra1yfjojYYu1P11xi5cvZZfA21RwOHfdagDJkV0d9UVndXvXycnzp9b1Lq1wCcr5+bWVfw/cdjAKoWJPKi4Uo0VAAAAAFtUBC6iQISLKDJQ2X7ykiGXQfeWbk+twGOKQkd8TgmvM56esoRdZcglTEpI3s45nI6ZRT6HaXpu7sfidsn/b0A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkKHepNFDUU6WO2J5B/bJuwAAAAACAAAAAAAQZgAAAAEAACAAAACmrK/TbxpdJVo7dYHWX1sNy0URV9Xid8ShHt/0Rbm2FgAAAAAOgAAAAAIAACAAAACQFMaa/gc3JqeJByNX/MnmRMtP10CZYtNR5ivyO/MvWpAAAAAv+Zo0nnyeBIheBDgw2e4c/JpO91GZ6eMfPwUEnNamI8mzr5NL52uLubM2aAuj0SVXn/FiWrRjblWzLIlKg/aUZFEgDuC1Ss4+5k1T9aD0VtPLQcrAvMBcRoroGx1jPhQZ+qj8+Li39jK/GyXsQUKWO8WVAubT++DFO5VIxcNfDVkVqWbDrxe52FV1ShJaSe1AAAAAGt2pXyFz2P7GyhKYjqTAy/o6e6hGsR2E8qCFo6XsF13gqrsLfSWamYNsODJCyiA4JuOeDZ9mAhPd/JObkw/wAQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -34,6 +34,7 @@
           <SSIS:Package SSIS:Name="Package2.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Package3.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Load_staging_CountryRef.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="drc_SQLdatabase_Library.conmgr" />
@@ -400,6 +401,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{90A5A4F5-6F55-499D-B4E7-99EAE03B0985}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Load_staging_CountryRef.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{80531B24-8F11-429B-8EEE-424F76EF2245}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2977E348-1399-4E1D-949B-E2C15A908CAC}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
