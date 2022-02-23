@@ -1,8 +1,0 @@
-﻿CREATE   PROCEDURE Book.SP_BookWork_Read
-AS
-
-IF OBJECT_ID('Book.BookWork') IS NOT NULL
-
-SELECT * FROM Book.BookWork;
-
-RETURN;

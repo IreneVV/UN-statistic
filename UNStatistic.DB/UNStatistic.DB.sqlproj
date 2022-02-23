@@ -58,45 +58,11 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="dbo\" />
-    <Folder Include="dbo\Tables\" />
-    <Folder Include="Book\" />
-    <Folder Include="Book\Tables\" />
-    <Folder Include="Book\Stored Procedures\" />
     <Folder Include="Security\" />
     <Folder Include="staging" />
     <Folder Include="staging\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Book20220129.sql" />
-    <Build Include="Book\Tables\Genre.sql" />
-    <Build Include="Book\Tables\Book.sql" />
-    <Build Include="Book\Tables\BookItem.sql" />
-    <Build Include="Book\Tables\Work.sql" />
-    <Build Include="Book\Tables\BookWork.sql" />
-    <Build Include="Book\Tables\Person.sql" />
-    <Build Include="Book\Stored Procedures\SP_Genre_Create.sql" />
-    <Build Include="Book\Stored Procedures\SP_Genre_Insert.sql" />
-    <Build Include="Book\Stored Procedures\SP_Genre_Delete.sql" />
-    <Build Include="Book\Stored Procedures\SP_Genre_Update.sql" />
-    <Build Include="Book\Stored Procedures\SP_Book_Insert.sql" />
-    <Build Include="Book\Stored Procedures\SP_Book_Create.sql" />
-    <Build Include="Book\Stored Procedures\SP_Book_Update.sql" />
-    <Build Include="Book\Stored Procedures\SP_Book_Delete.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookItem_Create.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookItem_Insert.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookItem_Read.sql" />
-    <Build Include="Book\Stored Procedures\SP_Work_Create.sql" />
-    <Build Include="Book\Stored Procedures\SP_Work_Insert.sql" />
-    <Build Include="Book\Stored Procedures\SP_Work_Read.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookWork_Create.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookWork_Insert.sql" />
-    <Build Include="Book\Stored Procedures\SP_BookWork_Read.sql" />
-    <Build Include="Book\Stored Procedures\SP_RowCount_Get.sql" />
-    <Build Include="Book\Stored Procedures\Person_InsertBulk.sql" />
-    <Build Include="Book\Stored Procedures\SP_Person_Create.sql" />
-    <Build Include="Book\Stored Procedures\usp_GetErrorInfo.sql" />
-    <Build Include="Book\Stored Procedures\DivideZero.sql" />
     <Build Include="Security\Book.sql" />
     <Build Include="staging\Tables\uncrime_untyped.sql" />
     <Build Include="staging\Tables\uncrime_typed.sql" />
